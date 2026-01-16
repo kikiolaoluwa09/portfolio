@@ -4,6 +4,8 @@ import { FaCss3Alt, FaGitAlt, FaGithub, FaHtml5, FaReact } from 'react-icons/fa'
 import { SiJavascript, SiSupabase, SiTailwindcss, SiTypescript } from 'react-icons/si'
 import { TbBrandReactNative } from 'react-icons/tb'
 
+import imagePc from '../assets/image-pc.png'
+
 const Services = ({ darkMode = true }) => {
   const services = [
     {
@@ -180,6 +182,23 @@ const Services = ({ darkMode = true }) => {
               />
             </motion.div>
           ))}
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.05 }}
+          viewport={{ once: true, margin: "-50px" }}
+          className="mt-10"
+        >
+          <motion.img
+            src={imagePc}
+            alt="Services"
+            loading="lazy"
+            className={`w-full h-auto block rounded-2xl border object-cover ${
+              darkMode ? 'border-gray-800/60' : 'border-gray-200/70'
+            }`}
+          />
         </motion.div>
 
         <motion.div
