@@ -77,7 +77,7 @@ const Hero = ({ darkMode = true }) => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">
-              Hi,I'm
+              Hi, I'm
               <motion.span
                 className={`bg-linear-to-r bg-clip-text text-transparent inline-block ${
                   darkMode
@@ -145,7 +145,7 @@ const Hero = ({ darkMode = true }) => {
                 transition: { type: "spring", stiffness: 300 },
               }}
               whileTap={{ scale: 0.95 }}
-              href="mailto:adeniran.kikiolaoluwa victor"
+              href="mailto:adeniran.kikiolaoluwa0409@gmail.com"
               className={`group relative px-5 py-2.5 rounded-lg transition-all duration-300 overflow-hidden ${
                 darkMode
                   ? "bg-gray-800 hover:bg-gray-700"
