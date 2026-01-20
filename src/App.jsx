@@ -26,7 +26,7 @@ function App() {
   }
 
   return (
-    <div className={`min-h-screen transition-colors duration-300 ${
+    <div className={`min-h-screen overflow-x-hidden transition-colors duration-300 ${
       darkMode 
         ? 'bg-black text-white' 
         : 'bg-white text-gray-900'
