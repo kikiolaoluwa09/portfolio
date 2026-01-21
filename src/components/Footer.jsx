@@ -44,6 +44,7 @@ const Footer = ({ darkMode = true }) => {
                   : 'bg-gray-200 hover:bg-gray-300'
               }`}
             >
+              
               <Mail size={20} />
             </motion.a>
 
