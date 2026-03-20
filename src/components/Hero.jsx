@@ -6,15 +6,15 @@ const Hero = ({ darkMode = true }) => {
   const handleResumeDownload = () => {
     try {
       const link = document.createElement("a");
-      link.href = "/Adeniran Kikiolaoluwa Victor's Resume.pdf";
-      link.download = "Adeniran_Kikiolaoluwa_Victor_Resume.pdf";
+      link.href = "/Adeniran Kikiolaoluwa Resume.pdf";
+      link.download = "Adeniran_Kikiolaoluwa_Resume.pdf";
       link.style.display = "none";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
     } catch (error) {
       console.error("Download failed:", error);
-      window.open("/Adeniran Kikiolaoluwa Victor's Resume.pdf", "_blank");
+      window.open("/Adeniran Kikiolaoluwa Resume.pdf", "_blank");
     }
   };
 
