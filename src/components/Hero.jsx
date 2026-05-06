@@ -88,7 +88,11 @@ const Hero = ({ darkMode = true }) => {
                   backgroundPosition: ["0%", "100%"],
                   transition: { duration: 1 },
                 }}
-                style={{ backgroundSize: "200%" }}
+                style={{
+                  backgroundSize: "200%",
+                  fontFamily:
+                    "'Bitcount Single Ink', 'Outfit', system-ui, sans-serif",
+                }}
               >
                 Kikiolaoluwa Adeniran
               </motion.span>
