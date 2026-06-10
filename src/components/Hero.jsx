@@ -77,7 +77,7 @@ const Hero = ({ darkMode = true }) => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">
-              Hi, I'm
+              Hi, I&apos;m&nbsp;
               <motion.span
                 className={`bg-linear-to-r bg-clip-text text-transparent inline-block ${
                   darkMode
@@ -105,42 +105,14 @@ const Hero = ({ darkMode = true }) => {
               darkMode ? "text-gray-400" : "text-gray-600"
             }`}
           >
-            Frontend / Mobile Development Intern experienced in building
-            responsive mobile and web interfaces with React and React Native.
-            Delivered production-ready projects including a React Native Food
-            Delivery App, expense tracker, and React-based Netflix clone,
-            showcasing strong component architecture, state management, and UI
-            polish. Effective at debugging UI issues, refactoring for
-            maintainability, and shipping clean, user-first mobile experiences.
+Mobile Engineer with proven experience delivering cross-platform React Native applications using TypeScript, Expo, Supabase, and payment gateway integrations. Built production-quality apps ranging from real-time social feeds and logistics trackers to habit systems with persistent storage. Committed to accessible, user-first mobile experiences — aligned with the mission of making financial services simple, transparent, and rewarding for every African. A collaborative team player who believes in doing better every day.
           </motion.p>
 
           <motion.div
             variants={itemVariants}
             className="flex flex-wrap gap-3 justify-center lg:justify-start"
           >
-            <motion.a
-              whileHover={{
-                scale: 1.05,
-                boxShadow: "0 10px 25px rgba(0,0,0,0.3)",
-                transition: { type: "spring", stiffness: 300 },
-              }}
-              whileTap={{ scale: 0.95 }}
-              href="mailto:kikola0409@gmail.com"
-              className={`group relative px-5 py-2.5 rounded-lg transition-all duration-300 overflow-hidden ${
-                darkMode
-                  ? "bg-gray-800 hover:bg-gray-700"
-                  : "bg-gray-200 hover:bg-gray-300"
-              }`}
-            >
-              <motion.div
-                className="absolute inset-0 bg-linear-to-r from-blue-600/20 to-purple-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                initial={false}
-              />
-              <span className="relative flex items-center gap-2 text-sm">
-                <Mail size={16} />
-                Email
-              </span>
-            </motion.a>
+
 
             <motion.a
               whileHover={{
@@ -162,7 +134,7 @@ const Hero = ({ darkMode = true }) => {
               />
               <span className="relative flex items-center gap-2 text-sm">
                 <Mail size={16} />
-                Alt Email
+                Email
               </span>
             </motion.a>
 

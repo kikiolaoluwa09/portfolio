@@ -3,6 +3,15 @@ import { motion } from 'framer-motion'
 const Experience = ({ darkMode = true }) => {
   const experiences = [
     {
+      title:"Mobile App Developer",
+      company: "Pitchers international (Remote)",
+      period: "March 2026 - Present",
+      description: "As a Mobile App Developer at Pitchers International, I am responsible for collaborating with other mobile engineers to develope  and maintain the company’s mobile applications. I work closely with cross-functional teams to design and implement user-friendly interfaces, ensuring a seamless user experience across various devices using react native.",
+      achievements:[
+        "Collaborated with cross-functional teams to design and implement user-friendly interfaces for mobile applications using React Native.",
+      ]
+    },
+    {
       title: 'Frontend Engineering Intern ',
       company: 'Rex Health (Remote)',
       period: 'June 2025 – September 2025',
@@ -28,15 +37,7 @@ const Experience = ({ darkMode = true }) => {
         'Refined UI and code quality based on feedback, focusing on clarity, responsiveness, and consistency'
       ]
     },
-    {
-      title:"Mobile App Developer",
-      company: "Pitchers international (Remote)",
-      period: "March 2026 - Present",
-      description: "As a Mobile App Developer at Pitchers International, I am responsible for collaborating with other mobile engineers to develope  and maintain the company’s mobile applications. I work closely with cross-functional teams to design and implement user-friendly interfaces, ensuring a seamless user experience across various devices using react native.",
-      achievements:[
-        "Collaborated with cross-functional teams to design and implement user-friendly interfaces for mobile applications using React Native.",
-      ]
-    }
+    
   ]
 
   return (

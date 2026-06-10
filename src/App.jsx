@@ -30,7 +30,13 @@ function App() {
       darkMode 
         ? 'bg-black text-white' 
         : 'bg-white text-gray-900'
-    }`}>
+    }`}
+    style={!darkMode ? {
+      backgroundImage: `radial-gradient(circle, #d1d5db 1px, transparent 1px)`,
+      backgroundSize: '20px 20px',
+      backgroundPosition: '0 0'
+    } : undefined}
+    >
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <main>
         <Hero darkMode={darkMode} />
